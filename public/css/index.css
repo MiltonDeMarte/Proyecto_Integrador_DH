@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Basics */
+
+.center {
+  text-align: center;
+}
+
+/* BODY SECTION */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+/*/*HEADER SECTION*/
+
+header {
+  background-color: #eac926;
+  padding: 10px;
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.h1-header {
+  width: 40%;
+}
+
+.h2-header {
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 12px;
+  width: 50%;
+}
+
+.barra {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.main-navbar {
+  display: none;
+}
+
+.main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.main-navbar li {
+  padding: 5px;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.burger_menu {
+  margin-top: 15px;
+  font-size: 25px;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1259c3;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #1259c3;
+  border-radius: 5px;
+}
+
+.padding10 {
+  padding-bottom: 10px;
+}
+
+.butt {
+  border-radius: 10px;
+  position: absolute;
+  right: -1px;
+}
+
+#search {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#site-search {
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+}
+
+#lupa {
+  border-width: 2px;
+  border-color: #ebebeb;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: auto;
+  padding: 6px;
+}
+
+/*/*MAIN SECTION*/
+
+.titular {
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 850;
+  display: flex;
+  justify-content: center;
+  /* flex-grow: 1; */
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.product:hover .tag {
+  display: flex;
+}
+
+.tag {
+  display: none;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  color: #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  transition: transform 3s;
+}
+
+main section article i:hover {
+  transform: rotate(-90deg);
+}
+
+.precio {
+  font-size: 18px;
+  color: black;
+  width: 30%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-weight: 950;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+.descuento {
+  font-weight: 950;
+  font-size: 16px;
+  color: #39b54a;
+  width: 70%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  font-style: oblique;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+.n-articulo {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bolder;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+/*/*FOOTER SECTION*/
+
+footer {
+  margin-top: 30px;
+}
+
+footer section article {
+  text-align: center;
+  padding: 25px;
+}
+
+footer section article p {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+h4.footer {
+  font-weight: 800;
+  font-size: 19px;
+  margin: auto;
+  width: 56%;
+}
+
+.footer-icon {
+  color: blue;
+  font-size: 2em;
+  padding-bottom: 10px;
+  transition: all 0.1s;
+}
+
+.footer-icon:hover {
+  color: rgba(82, 34, 240, 0.748);
+}
+
+footer .parr {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.copyr {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: black;
+}

@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* BODY */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+/** HEADER **/
+header {
+  background-color: #eac926;
+  padding: 10px;
+}
+
+.main-navbar {
+  display: none;
+}
+
+.main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.main-navbar li {
+  padding: 5px;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.disable:visited {
+  color: blue;
+  font-weight: bold;
+}
+
+.burger_menu {
+  margin-top: 15px;
+  font-size: 25px;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1259c3;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #1259c3;
+  border-radius: 5px;
+}
+
+/** MAIN **/
+
+.register {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+label {
+  display: none;
+  cursor: pointer;
+}
+
+.register > div > div {
+  margin-bottom: 22px;
+}
+
+.wrap {
+  border: 15px;
+  border-style: double;
+  border-width: 15px;
+  border-color: #1259c3;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.user {
+  width: 55vw;
+  text-align: center;
+  font-style: italic;
+  font-weight: 650;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.h2-header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-decoration: underline;
+  text-shadow: 0 0 black;
+}
+
+div > h4 {
+  text-align: left;
+  margin-bottom: 4px;
+  font-style: italic;
+  text-shadow: 0 0 black;
+}
+
+section > h3 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+div.fperfil > label {
+  display: inline;
+  margin: auto;
+  font-weight: 900;
+  padding: 15px;
+  border-style: double;
+  border-width: 5px;
+  border-color: #1259c3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  font-size: 14px;
+  font-style: italic;
+  background-color: white;
+  z-index: -1;
+}
+
+div.fperfil > input {
+  opacity: 0;
+  position: absolute;
+}
+
+.intereses {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.otros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.actividad {
+  font-weight: 900;
+  font-style: italic;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+
+section.intereses > div {
+  width: 50%;
+  font-weight: 750;
+  font-style: italic;
+}
+
+.radiobut {
+  margin-top: 7px;
+}
+
+.checkbut {
+  margin-right: 3px;
+}
+
+.fperfil {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+textarea {
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boton {
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  border-color: blue;
+  box-shadow: 2px 3px 7px rgb(100 100 100);
+  font-weight: 900;
+  transition: all 0.5s;
+}
+
+.boton:hover {
+  background-color: #0022aa;
+}
+
+/** FOOTER **/
+
+footer section article {
+  text-align: center;
+  padding: 25px;
+}
+
+footer section article p {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+h4.footer {
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: solid;
+  margin: 0 auto;
+  width: 56%;
+  text-align: center;
+}
+
+.footer-icon {
+  color: blue;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+/*******************************************************************/
+
+/***     LOGIN       ***/
+
+/** MAIN **/
+
+form.login {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.inicio-ses {
+  padding: 30px;
+  border: 10px;
+  border-style: double;
+  border-color: green;
+  border-width: 8px;
+  border-radius: 10px;
+}
+
+section.inicio-ses > div {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.boton-login {
+  padding: 5px;
+  background-color: white;
+  border-radius: 8px;
+  border-color: blue;
+  box-shadow: 2px 3px 7px rgb(100 100 100);
+  font-weight: 900;
+}
