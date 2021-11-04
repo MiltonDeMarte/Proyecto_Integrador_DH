@@ -1,16 +1,14 @@
-# <h1 align="center">Proyecto_Integrador_DH</h1>
+# <h1 align="center"><strong>Proyecto Integrador <em>DigitalHouse</em></strong></h1>
 
-#
 
- <h2 align="center" style="font-style:italic">Mercado Liebre</h2>
+ <h2 align="center"><em>Mercado Liebre</em></h2>
 
- <h3 align="center" style="font-style:italic">A un salto de lo que necesitas</h3>
+ <h3 align="center"><em>A un salto de lo que necesitas</em></h3>
 
 #
 
 <h2 align="center">Proyecto integrador por Milton De Marte</h2>
-
-<h4 align="center">Digital House - 2021</h4>
+<p align="center">Digital House - 2021</p>
 
 #
 
