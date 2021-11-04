@@ -21,25 +21,35 @@
 
 <body>
     <header>
-        <section>
+        <section class="main-header">
             <h1 class="h1-header">
                 <a href="/"><img src="/images/logo-mercado-liebre.svg" alt="Aca va el logo de MercadoLiebre"
                         width=100%></a>
             </h1>
+            <div class="barra">
+                <input type="search" id="site-search" name="q" aria-label="Search through site content"
+                    placeholder="Buscar Productos, Marcas, Servicios y mucho mas">
+                <button class="butt">
+                    <i id="lupa" class="fas fa-search"></i>
+                </button>
+            </div>
+            <h2 class="h2-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Compra en cuotas y sin tarjeta de credito
+            </h2>
         </section>
         <section>
             <nav class="main-navbar">
                 <ul>
-                    <li><a href="./views/index.html">Ofertas</a></li>
-                    <li><a href=index.html>Tienda Oficiales</a></li>
-                    <li><a href=index.html>Vender</a></li>
-                    <li><a href=index.html>Ayuda</a></li>
+                    <li><a href="/ofertas">Ofertas</a></li>
+                    <li><a href="/tiendas">Tienda Oficiales</a></li>
+                    <li><a href="/venta>">Vender</a></li>
+                    <li><a href="/ayuda">Ayuda</a></li>
                 </ul>
                 <ul>
                     <li><a href="/register">Crea tu cuenta</a><i class="far fa-address-card"></i></li>
-                    <li><a href="/login" class="disable">Ingresa</a><i class="fas fa-sign-in-alt"></i>
-                    </li>
-                    <li><a href=index.html>Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+                    <li><a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="/carrito">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
                 </ul>
             </nav>
         </section>
