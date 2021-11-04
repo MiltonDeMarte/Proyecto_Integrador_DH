@@ -1,14 +1,23 @@
 {
-  "name": "clase-13",
+  "name": "proyecto-integrador-dh",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h2 align=\"center\" style=\"font-style:italic\">Mercado Liebre</h2>",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "",
+  "author": "MDM",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiltonDeMarte/Proyecto_Integrador_DH.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiltonDeMarte/Proyecto_Integrador_DH/issues"
+  },
+  "homepage": "https://github.com/MiltonDeMarte/Proyecto_Integrador_DH#readme"
 }
