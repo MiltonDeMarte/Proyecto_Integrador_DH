@@ -152,10 +152,6 @@ main {
   padding: 15px;
 }
 
-.product:hover {
-  -webkit-transition: height 2s;
-}
-
 .product:hover .tag {
   display: flex;
 }
