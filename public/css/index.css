@@ -33,6 +33,11 @@ header {
   width: 40%;
 }
 
+.searchform {
+  margin: auto;
+  width: 50%;
+}
+
 .h2-header {
   text-align: center;
   font-weight: 900;
@@ -40,12 +45,12 @@ header {
   font-size: 20px;
   padding-bottom: 12px;
   width: 50%;
+  margin-left: 10px;
 }
 
 .barra {
   position: relative;
   text-align: center;
-  width: 50%;
   margin: auto;
   padding: 10px;
   font-size: 17px;
@@ -122,6 +127,11 @@ header {
 
 /*/*MAIN SECTION*/
 
+main {
+  width: 90%;
+  margin: auto;
+}
+
 .titular {
   font-size: 30px;
   text-align: center;
@@ -129,7 +139,6 @@ header {
   font-weight: 850;
   display: flex;
   justify-content: center;
-  /* flex-grow: 1; */
 }
 
 .article-container {
@@ -143,6 +152,10 @@ header {
   padding: 15px;
 }
 
+.product:hover {
+  -webkit-transition: height 2s;
+}
+
 .product:hover .tag {
   display: flex;
 }
@@ -154,6 +167,11 @@ header {
   background-color: white;
   position: relative;
   text-align: center;
+  transition: 450ms;
+}
+
+.tag:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section article i {

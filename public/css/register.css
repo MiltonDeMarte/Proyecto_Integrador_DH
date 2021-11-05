@@ -299,6 +299,24 @@ h4.footer {
   color: blue;
   font-size: 2em;
   padding-bottom: 10px;
+  transition: all 0.1s;
+}
+
+.footer-icon:hover {
+  color: rgba(82, 34, 240, 0.748);
+}
+
+footer .parr {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.copyr {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: black;
 }
 
 /*******************************************************************/
